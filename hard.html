@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dom Manipulation Hard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+
+    .bg-red {
+      background-color: red;
+    }
+
+   .bg-white {
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  
+    <button >
+      Turn it red!
+    </button>
+    <button >
+      Turn it white!
+    </button>
+  
+    <script>
+
+
+     // Do Stuff Here
+const button = document.querySelector('button');
+    //  window.updateTheBackground = function(className) {
+button.addEventListener('click', className => {
+   
+   let element= document.getElementsByTagName("body")
+   element.classList.toggle(className);
+
+})
+
+
+   
+   //   document.querySelector(".bg-red").addEventListener("click", function(){
+    //     document.querySelector(".html").style.background=".bg-white";
+    
+    //   })
+    //   document.querySelector(".bg-white").addEventListener("click", function(){
+    //     document.querySelector(".html").style.background=".bg-red";
+
+
+    //  })
+// button.addEventListener('click', event => {
+
+    </script>
+</body>
+
+      </html>
